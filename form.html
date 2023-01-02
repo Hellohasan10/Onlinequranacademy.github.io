@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shotcut icon" type="image/png" href="assets/img/logo.jpg">
+        
+
+        <!-- ===== BOX ICONS ===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="form.css">
+
+        <!-- ===== TAILBLOCK ===== -->
+        <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+
+
+        <title>Register - Online Quran Academy</title>
+    </head>
+    <body id="body-pd">
+        <header class="header" id="header">
+            <div class="header__toggle">
+                <i class='bx bx-menu' id="header-toggle"></i>
+            </div>
+
+            <div class="header__img">
+                <img src="assets/img/logo.jpg" alt="">
+            </div>
+        </header>
+
+        <div class="l-navbar" id="nav-bar">
+            <nav class="nav">
+                <div>
+                    <a href="index.html" class="nav__logo">
+                      <i class='bx bx-layer nav__logo-icon'></i>
+                      <span class="nav__logo-name">Quran Academy</span>
+                    </a>
+
+                    <div class="nav__list">
+                        <a href="index.html" class="nav__link active">
+                        <i class='bx bx-home nav__icon' ></i>
+                            <span class="nav__name">Home</span>
+                        </a>
+
+                        <a href="courses.html" class="nav__link">
+                            <i class='bx bxs-video nav__icon' ></i>
+                            <span class="nav__name">Courses</span>
+                        </a>
+                        
+                        <a href="fees.html" class="nav__link">
+                            <i class='bx bxs-dollar-circle'></i>
+                            <span class="nav__name">Fees</span>
+                        </a>
+
+                        <a href="aboutus.html" class="nav__link">
+                            <i class='bx bxs-user'></i>
+                            <span class="nav__name">About us</span>
+                        </a>
+
+                        <a href="form.html" class="nav__link">
+                            <i class='bx bxs-user-plus'></i>
+                            <span class="nav__name">Register Now</span>
+                        </a>
+                    </div>
+                </div>
+
+                <a href="form.html" class="nav__link">
+                    <i class='bx bx-log-in'></i>
+                    <span class="nav__name">Log in</span>
+                </a>
+            </nav>
+        </div>
+
+    <section>
+        <div class="container">
+            <h6>Online Quran Academy</h6>
+            <br>
+            <div>
+
+            <h2>
+                REGISTER NOW    
+            </h2>
+            <p class="register">Fields marked with an * are required
+</p>
+            </div>
+
+            <form action="https://formspree.io/f/xvoynvnd" method="POST" id="my-form">
+
+            <div class="form-group">
+                <label for="firstName">First Name*</label>
+                <input type="text" id="firstName" name="firstName" required>
+            </div>
+
+            <div class="form-group">
+                <label for="latsName">Last Name*</label>
+                <input type="text" id="lastName" name="lastName" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email*</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="Course">Course Name*</label>
+                <textarea name="Course name" id="massage" cols="30" rows="1"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="Mobile no">Mobile no*</label>
+                <textarea name="Mobile No" id="massage" cols="30" rows="1" required></textarea> 
+            </div>
+
+            <div class="form-group">
+                <label for="country">Country*</label>
+                <textarea name="Country" id="massage" cols="30" rows="1" required></textarea>
+            </div>
+
+            <button type="submit">Submit</button>
+            
+            </form>
+        </div>
+
+        <div class="mhmentorpow">
+            <h4>Form Powered by <a href="https://hellohasan10.github.io/mhmentor.com/" target="_blank"><b>MHMentor</b></a></h4>
+        </div>
+
+
+  <div id="status"></div>
+    </section>
+
+
+
+        
+
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+        <script src="gmail.js"></script>
+
+    </body>
+</html>
